@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar-brand{
+    font-weight:bold;
+}
+
+.tagbox{
+    margin:5px;
+    background-color:grey;
+    padding:7px;
+    font-size:small;
+    color:white;
+    transition: box-shadow .3s;
+    border-radius:10px;
+    /*background: #fff;*/
+    float: left;
+    cursor:pointer;
+    outline:none;
+    border:none;
+}
+
+.tagbigbox{
+    margin:5px;
+    background-color:grey;
+    padding:7px;
+    font-size:large;
+    color:white;
+    transition: box-shadow .3s;
+    border-radius:10px;
+    /*background: #fff;*/
+    float: left;
+    cursor:pointer;
+    outline:none;
+    border:none;
+}
+
+.tagbox:hover, .tagbigbox:hover{
+    box-shadow: 0 0 10px rgba(33,33,33,.5); 
+
+}
+
+a.tagbox:hover, a.tagbigbox:hover{
+    text-decoration:none;
+    color:white;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+.tagbigbox{
+    margin-top:5px;
+}
+.owner-img{
+    border-radius:100px;
+    width:50px;
+    margin-right:13px;
+}
